@@ -66,6 +66,9 @@
       width:100%;
       position: relative;
     }
+    header{
+      height:70vh;
+    }
   }
 
   .header .profile-img{
