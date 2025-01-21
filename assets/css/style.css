@@ -179,7 +179,7 @@
     color: white;
   }
   .accordion-item button:focus {
-    color: black !important;
+    color: #333333ee !important;
     background: #b15b107f;
   }
   .fbd{
