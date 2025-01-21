@@ -161,6 +161,24 @@
     font-weight: 400;
     line-height: 2em;
   }
+
   .c-progrss-bar{
     margin-bottom: 20px;
+  }
+
+  .progerss-bg { 
+    background-color: #b15b10bd !important;
+    border-radius: 8px;
+  }
+
+  .c-accordion-item button{
+    background-color: #b15b1095;
+    color: white !important;
+  }
+  .c-accordion-title{
+    color: white;
+  }
+  .accordion-item button:focus {
+    color: black !important;
+    background: #b15b107f;
   }
