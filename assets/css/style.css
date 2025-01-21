@@ -56,6 +56,18 @@
     right: 0;
   }
 
+  @media (max-width:600px){
+
+    .left-col-block{
+      width: 100%;
+      position: relative;
+    }
+    .right-col-block{
+      width:100%;
+      position: relative;
+    }
+  }
+
   .header .profile-img{
     position: absolute;
     left: 0;
