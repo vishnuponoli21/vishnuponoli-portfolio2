@@ -208,5 +208,11 @@
     background-color: #b15b107f;
     backdrop-filter: blur(5px) saturate(80%);
     font-size: large;
+    border-radius: 3px;
+  }
+  .c-button {
+    background-color: #b15b10a9 !important;
+    border:1px #b15b10a0 !important;
+    margin-bottom: 10px;
   }
   
