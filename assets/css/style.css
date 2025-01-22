@@ -204,4 +204,9 @@
   .fbd{
     word-spacing: 10px;
   }
+  .carousel-para {
+    background-color: #b15b107f;
+    backdrop-filter: blur(5px) saturate(80%);
+    font-size: large;
+  }
   
