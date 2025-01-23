@@ -187,6 +187,9 @@
     margin-bottom: 10px;
     font-weight: 500;
   }
+  .expertise-item p {
+    font-size: small;
+  }
   .progrss-title{
     font-size: small;
     font-weight: 400;
@@ -260,4 +263,3 @@
     margin: 0 !important;
     font-size: xx-small;
   }
-  
