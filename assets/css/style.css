@@ -252,6 +252,9 @@
     margin-right: 50px;
     text-decoration: none;
   }
+  nav li a:hover{
+    color: #ffffffc7;
+  }
   nav ul {
     margin: 0;
   }
