@@ -259,10 +259,11 @@
     margin: 0;
   }
   footer {
-    background-color: #f8c06683;
+    background-color: rgba(52, 34, 2, 0.909);
     text-align: end;
   }
   footer p{
     margin: 0 !important;
     font-size: xx-small;
+    color: whitesmoke;
   }
