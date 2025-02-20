@@ -25,38 +25,7 @@
     font-variation-settings:
       "wdth" 100;
   }
-  @media (max-width:600px){
-
-    .left-col-block{
-      width: 100%;
-      position: relative;
-    }
-    .right-col-block{
-      width:100%;
-      position: relative;
-    }
-    header{
-      height:70vh;
-    }
-    iframe {
-      width: 100%;
-      position: relative;
-    }
-    
-    /* .custom-container{
-      position: relative !important;
-      width: 100% !important;
-    } */
-    nav li a {
-      margin-right: 10px !important;
-      font-size: small !important;
-      /* text-align: center; */
-    }
-    nav ul{
-      /* padding-left:0  !important; */
-      padding:0px !important;
-    }
-  }
+ 
 
   header{
     padding: 0;
@@ -159,79 +128,17 @@
     border-radius: 100%;
     border:2px solid #fff;
   }
-
-  .section-wrapper{
-    padding: 50px;
+  .odd-section {
+    background-color: #efb75d36;
+    color:#333333c8;
   }
-  .section-title h2{
-    color: #333333ee;
-  }
-  .mud-bg{
-    background-color: #f8c06661;
-  }
-  .section-title{
-    margin-bottom: 30px;
-    font-weight: 400;
-  }
-  .expertise{
-    margin-bottom: 30px;
-    font-weight: 400;
-    color: #333333da;
-  }
-  .expertise-item {
-    margin-bottom: 30px;
-    color: #333333c8;
-  }
-  .expertise-item h5 {
-    margin-bottom: 10px;
-    font-weight: 500;
-  }
-  .expertise-item p {
-    font-size: small;
-  }
-  .progrss-title{
-    font-size: small;
-    font-weight: 400;
-    line-height: 2em;
+  .even-section {
+    background-color:  #e4bf80a8;
+    color:#333333c8;
   }
 
-  .c-progrss-bar{
-    margin-bottom: 20px;
-  }
-
-  .progerss-bg { 
-    background-color: #b15b10bd !important;
-    border-radius: 8px;
-  }
-
-  .c-accordion-item button{
-    background-color: #b15b1095;
-    color: white !important;
-  }
-  .c-accordion-title{
-    color: white;
-  }
-  .accordion-item button:focus {
-    color: #333333ee !important;
-    background: #b15b107f;
-  }
-  .fbd{
-    word-spacing: 10px;
-  }
-  .carousel-para {
-    background-color: #b15b107f;
-    backdrop-filter: blur(5px) saturate(80%);
-    font-size: large;
-    border-radius: 3px;
-  }
-  .c-button {
-    background-color: #b15b10a9 !important;
-    border:1px #b15b10a0 !important;
-    margin-bottom: 10px;
-  }
   nav{
     padding-top: 10px;
-    background-color:#f8c06683 ;
   }
 
   nav .logo a {
@@ -258,6 +165,81 @@
   nav ul {
     margin: 0;
   }
+
+  .section-wrapper{
+    padding: 60px;
+  }
+  .section-title h2{
+    color: #333333ee;
+  }
+  .section-title{
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+  .expertise{
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #333333da;
+  }
+  .expertise-item {
+    margin-bottom: 30px;
+    color: #333333c8;
+  }
+  .expertise-item h5 {
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .expertise-item p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .progrss-title{
+    font-size: small;
+    font-weight: 400;
+    line-height: 2em;
+  }
+
+  .c-progrss-bar{
+    margin-bottom: 20px;
+  }
+
+  .progerss-bg { 
+    background-color: #b15b10bd !important;
+    border-radius: 8px;
+  }
+  
+  .contact  ul li{
+      list-style: none;
+      line-height: 40px;
+  }
+  .contact  ul li span {
+    margin-left: 25px ;
+  }
+
+  .form ::placeholder {
+    font-family: "Roboto", serif ;
+    font-size: small ;
+    font-weight: 200 ;
+  }
+
+  .form textarea {
+    font-family: "Roboto", serif ;
+    font-size: small ;
+    font-weight: 200 ;
+  }
+
+  .carousel-para {
+    background-color: #b15b107f;
+    backdrop-filter: blur(5px) saturate(80%);
+    font-size: large;
+    border-radius: 3px;
+  }
+  .c-button {
+    background-color: #b15b10a9 !important;
+    border:1px #b15b10a0 !important;
+    margin-bottom: 10px;
+  }
+ 
   footer {
     background-color: rgba(52, 34, 2, 0.909);
     text-align: center;
@@ -266,4 +248,37 @@
     margin: 0 !important;
     font-size: xx-small;
     color: whitesmoke;
+  }
+
+  @media (max-width:600px){
+
+    .left-col-block{
+      width: 100%;
+      position: relative;
+    }
+    .right-col-block{
+      width:100%;
+      position: relative;
+    }
+    header{
+      height:70vh;
+    }
+    iframe {
+      width: 100%;
+      position: relative;
+    }
+    
+    /* .custom-container{
+      position: relative !important;
+      width: 100% !important;
+    } */
+    nav li a {
+      margin-right: 10px !important;
+      font-size: small !important;
+      /* text-align: center; */
+    }
+    nav ul{
+      /* padding-left:0  !important; */
+      padding:0px !important;
+    }
   }
